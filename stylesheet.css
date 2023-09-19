@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(255, 255, 255) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    box-shadow: 0px 0px 10px black;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    user-select: none;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: rgb(23, 7, 15);
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 40px;
+    background-color: #b987df;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.weben {
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 0px;
+}
+
+.landing {
+    text-align: left;
+    padding: 50px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+}
+
+.brief-explain {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+
+.brief-explain p {
+    text-indent: 25px;
+    text-align: justify;
+}
+
+.brief-explain .container-1 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.why-point {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.why-point .container-2 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.team-roles {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.roles-cards img {
+    height: 500px;
+    width: auto;
+}
+
+.container-3 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.container-4 {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.closing {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.medihub-title h3{
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.medihub-layout {
+    max-width: 1200px;
+    padding: 0 250px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    position: relative;
+}
+
+.medihub-layout i {
+    background: black;
+    color: #fff;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.medihub-layout i:first-child {
+    left: 190px;
+    display: none;
+}
+
+.medihub-layout i:last-child {
+    right: 190px;
+}
+
+.medihub-layout .carousel {
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+.carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging img {
+    pointer-events: none;
+}
+
+.carousel img {
+    height: 395px;
+    object-fit: cover;
+    margin-left: 14px;
+    width: 100%;
+}
+
+.carousel img:first-child {
+    margin-left: 0px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    background: #5d1e8c;
+}
+
+.footer p {
+    color: #fff;
+}
+
+@media screen and (max-width:900px) {
+    .carousel img {
+        height: 225px;
+        width: 100%;
+    }
+}
+
+
+/*to be edited in the future*/
+@media screen and (max-width:600) {
+    .carousel img {
+        height: 225px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .carousel img {
+        height: 225px;
+        width: 100%;
+    }
+}
